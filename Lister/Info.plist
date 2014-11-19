@@ -28,7 +28,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>${LISTER_BUNDLE_PREFIX}.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>$(LISTER_BUNDLE_PREFIX).$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

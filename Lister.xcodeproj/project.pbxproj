@@ -623,6 +623,13 @@
 			remoteGlobalIDString = 3E745ECA190880F30090B20E;
 			remoteInfo = ListerKitOSX;
 		};
+		D19222111A1CC84B003024DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163275F218AD468F00A97A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163275F918AD468F00A97A9F;
+			remoteInfo = Lister;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -2555,6 +2562,7 @@
 			);
 			dependencies = (
 				3E2517CF197F7D9700B8AF96 /* PBXTargetDependency */,
+				D19222121A1CC84B003024DF /* PBXTargetDependency */,
 			);
 			name = ListerKitTests;
 			productName = ListerKitTests;
@@ -2608,6 +2616,7 @@
 				ORGANIZATIONNAME = "Apple Inc.";
 				TargetAttributes = {
 					163275F918AD468F00A97A9F = {
+						DevelopmentTeam = 49V87TT95M;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2616,6 +2625,9 @@
 								enabled = 1;
 							};
 						};
+					};
+					1632761D18AD468F00A97A9F = {
+						DevelopmentTeam = 49V87TT95M;
 					};
 					1633C7301939337F00A9CC5E = {
 						CreatedOnToolsVersion = 6.0;
@@ -2629,6 +2641,7 @@
 					};
 					16EB5ECA1936D39400532A4B = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 49V87TT95M;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2640,6 +2653,7 @@
 					};
 					3E04D0DF19D9FB7500C59A0F = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 49V87TT95M;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2651,10 +2665,10 @@
 					};
 					3E04D0EB19D9FB7500C59A0F = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 49V87TT95M;
 					};
 					3E2517C6197F7D9600B8AF96 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 1632761D18AD468F00A97A9F;
 					};
 					3E95066F198575570030A9D1 = {
 						CreatedOnToolsVersion = 6.0;
@@ -3358,6 +3372,11 @@
 			target = 3E745ECA190880F30090B20E /* ListerKitOSX */;
 			targetProxy = 55C783451A19C782006B0C19 /* PBXContainerItemProxy */;
 		};
+		D19222121A1CC84B003024DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163275F918AD468F00A97A9F /* Lister */;
+			targetProxy = D19222111A1CC84B003024DF /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -3423,7 +3442,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LISTER_BUNDLE_PREFIX = "com.example.apple-samplecode";
+				LISTER_BUNDLE_PREFIX = request;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3459,7 +3478,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LISTER_BUNDLE_PREFIX = "com.example.apple-samplecode";
+				LISTER_BUNDLE_PREFIX = request;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3487,6 +3506,7 @@
 				INFOPLIST_FILE = ListerKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3511,6 +3531,7 @@
 				INFOPLIST_FILE = ListerKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3534,6 +3555,7 @@
 				GCC_PREFIX_HEADER = "Lister/Lister-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Lister/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -3555,6 +3577,7 @@
 				GCC_PREFIX_HEADER = "Lister/Lister-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Lister/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -3666,6 +3689,7 @@
 				);
 				INFOPLIST_FILE = ListerToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
@@ -3683,6 +3707,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = ListerToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
@@ -3705,6 +3730,7 @@
 				INFOPLIST_FILE = ListerWatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
@@ -3723,6 +3749,7 @@
 				INFOPLIST_FILE = ListerWatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LISTER_BUNDLE_PREFIX = request;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";

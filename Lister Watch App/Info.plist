@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>${LISTER_BUNDLE_PREFIX}.Lister.watchapp</string>
+	<string>$(LISTER_BUNDLE_PREFIX).Lister.watchapp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -22,13 +22,13 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>WKCompanionAppBundleIdentifier</key>
-	<string>${LISTER_BUNDLE_PREFIX}.Lister</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>WKCompanionAppBundleIdentifier</key>
+	<string>${LISTER_BUNDLE_PREFIX}.Lister</string>
 	<key>WatchKitApp</key>
 	<true/>
 </dict>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "1.8">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3E04D0EB19D9FB7500C59A0F"
+               BuildableName = "Lister Watch App.app"
+               BlueprintName = "Lister Watch App"
+               ReferencedContainer = "container:Lister.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "163275F918AD468F00A97A9F"
+               BuildableName = "Lister.app"
+               BlueprintName = "Lister"
+               ReferencedContainer = "container:Lister.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3E04D0DF19D9FB7500C59A0F"
+               BuildableName = "ListerWatch.appex"
+               BlueprintName = "ListerWatch"
+               ReferencedContainer = "container:Lister.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3E04D0EB19D9FB7500C59A0F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
+            ReferencedContainer = "container:Lister.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Lister">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3E04D0EB19D9FB7500C59A0F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
+            ReferencedContainer = "container:Lister.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3E04D0EB19D9FB7500C59A0F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
+            ReferencedContainer = "container:Lister.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3E04D0EB19D9FB7500C59A0F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
+            ReferencedContainer = "container:Lister.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Lister">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3E04D0EB19D9FB7500C59A0F"
+            BuildableName = "Lister Watch App.app"
+            BlueprintName = "Lister Watch App"
+            ReferencedContainer = "container:Lister.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
